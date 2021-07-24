@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-23T18:49:52 IST" name="Suite" finished-at="2021-07-23T18:50:37 IST" duration-ms="45304">
+    <groups>
+    </groups>
+    <test started-at="2021-07-23T18:49:52 IST" name="Test" finished-at="2021-07-23T18:50:37 IST" duration-ms="45304">
+      <class name="tests.LoginTest">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@29647f75]" started-at="2021-07-23T18:49:52 IST" name="login" data-provider="getdata" finished-at="2021-07-23T18:50:18 IST" duration-ms="26549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sureshkumar1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[james123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:tests.LoginTest@29647f75]" started-at="2021-07-23T18:50:18 IST" name="closebrowser" finished-at="2021-07-23T18:50:19 IST" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@29647f75]" started-at="2021-07-23T18:50:19 IST" name="login" data-provider="getdata" finished-at="2021-07-23T18:50:36 IST" duration-ms="17284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sureshkumar2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[james234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:tests.LoginTest@29647f75]" started-at="2021-07-23T18:50:36 IST" name="closebrowser" finished-at="2021-07-23T18:50:37 IST" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
